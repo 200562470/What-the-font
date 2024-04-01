@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    background-color: grey;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 176, 190);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    animation: fadeIn 1s ease-out; /* Fade in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem; /* Increased font size */
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+
+}
+
+header p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.lyrics {
+    font-family: sofia;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease-out; /* Slide in animation */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+footer {
+    background-color: pink;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: fadeIn 1s ease-out; /* Fade in animation */
+}
+
+/* Added hover effect to footer */
+footer:hover {
+    background-color: rgb(206, 92, 111);
+    color: #fff;
+}
